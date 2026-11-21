@@ -56,3 +56,6 @@ print("Recall score of the test data is: ", test_data_recall)
 print("F1 score of the test data is: ", test_data_f1)
 print("Confusion matrix of the test data is: \n", test_data_confusion_matrix)
 print("Classification report of the test data is: \n", test_data_classification_report)
+
+## Now we can build a predictive system, by converting a single row values of all teh attributes into numpy array and get the prediction using the trained model. 
+
